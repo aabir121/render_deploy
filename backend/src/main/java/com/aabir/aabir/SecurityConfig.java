@@ -25,7 +25,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedMethods( Collections.singletonList("*"));
 
-        List<String> allowedOriginsList = List.of("http://localhost:4200");
+        List<String> allowedOriginsList = List.of("https://deploy-static-cnu1.onrender.com");
         config.setAllowedOrigins(allowedOriginsList);
 
         config.setAllowedHeaders( Collections.singletonList("*"));
